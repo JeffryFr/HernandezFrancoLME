@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+html, *, *::before, *::after{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    position: relative;
+    float: right;
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+}
+
+nav > ul{
+    list-style: none;
+}
+
+nav > li{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    display: block;
+    color: #2D3940;
+    margin-right: 10px;
+    padding: 20px 10px;
+    transition: .5s;
+}
+
+nav ul li a:hover{
+    background-color: #2D3940;
+    color: white;
+    border-bottom-left-radius: 5px;
+}
+
+nav ul li a.resaltado:hover{
+    text-decoration: underline;
+}
+
+header{
+    width: 100% ;
+    height: 100vh;
+    background-image: url(../img/banner.jpg);
+    position: relative;
+}
+
+body{
+    background-color: #0330b8;
+}
+
+h1{
+    text-align: center;
+    font-family: 'RocknRoll', 'Arial', 'Segoe';
+    font-size: 40px;
+    color: white;
+    margin-top: 20px;
+}
+hr{
+    margin: 5px 30px 5px 30px;
+    height: 5px;
+    background-color: white;
+}
+
+#contenedor1, #contenedor2, #contenedor3{
+    background-color: #F2A30F;
+    width: 30vw;
+    float: left;
+    color: #2D3940;
+    font-size: 20px;
+    margin: 1vw;
+    border-radius: 5px;
+    box-shadow: black;
+    padding: 15px;
+    height: 140vh;
+}
+
+h2{
+    color: #2D3940;
+    font-family: 'RocknRoll', 'Arial', 'Segoe';
+    text-align: center;
+
+}
+
+#contenedor1 img, #contenedor2 img, #contenedor3 img{
+    width: 25vw;
+    margin-bottom: 10px;
+    transition: .5s;
+}
+
+#contenedor2 img:hover, #contenedor3 img:hover{
+    opacity: 70%;
+}
+
+footer{
+    background-color: white;
+    color: black;
+    clear: both;
+}
